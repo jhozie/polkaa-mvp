@@ -1,0 +1,41 @@
+<svg width="300" height="70" viewBox="0 0 300 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&amp;display=swap');
+      .brand-title {
+        font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 49px;
+        letter-spacing: 0.005em;
+        fill: #003654;
+      }
+    </style>
+  </defs>
+  
+  <!-- Circular Badge Emblem (x=14, y=8) -->
+  <g transform="translate(14, 8)">
+    <svg width="54" height="54" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badge_grad_soft-light" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F2F7"/>
+      <stop offset="1" stop-color="#D9EBF2"/>
+    </linearGradient>
+  </defs>
+  <!-- Round Background (Circular Badge) -->
+  <circle cx="50" cy="50" r="48" fill="url(#badge_grad_soft-light)" stroke="rgba(0, 79, 113, 0.12)" stroke-width="2"/>
+  
+  <!-- The Option 2 Special P with Inset Yellow Dot (scaled and centered inside disc) -->
+  <g transform="translate(19, 18) scale(0.64)">
+    <!-- Option 2 P-Chassis -->
+    <path fill-rule="evenodd" clip-rule="evenodd" 
+          d="M 22 10 C 15.373 10 10 15.373 10 22 L 10 78 C 10 84.627 15.373 90 22 90 C 28.627 90 34 84.627 34 78 L 34 56 L 56 56 C 74.778 56 90 40.778 90 22 C 90 15.373 84.627 10 78 10 L 22 10 Z M 34 24 L 56 24 C 64.837 24 72 31.163 72 40 C 72 48.837 64.837 56 56 56 L 34 56 L 34 24 Z" 
+          fill="#004F71"/>
+    <!-- The Subtle Sunshine Yellow Verification Dot -->
+    <circle cx="53" cy="40" r="7.5" fill="#FFCC05"/>
+  </g>
+</svg>
+  </g>
+  
+  <!-- Standard Aligned Wordmark -->
+  <text x="86" y="52" class="brand-title">polkaa</text>
+</svg>
